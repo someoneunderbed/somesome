@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.big-sec {
+  display: flex;
+  justify-content: space-between;
+
+  .section-one {
+    width: 500px;
+    margin: 25px;
+
+    img {
+      width: 250px;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h3 {
+      margin: 7px 0;
+    }
+
+    p {
+      font-weight: bold;
+      margin-bottom: 25px;
+
+      &::before {
+        content: "Vice President: ";
+      }
+    }
+  }
+
+  .section-two {
+    width: 500px;
+
+    margin: 25px;
+
+    h1 {
+      font-size: 30px;
+      margin: 5px 0;
+    }
+
+    h3 {
+      font-size: 23px;
+      margin: 7px 0;
+      color: brown;
+    }
+
+    p {
+      font-weight: bold;
+      margin-bottom: 25px;
+      color: red;
+    }
+  }
+
+  .section-three {
+    width: 500px;
+
+    margin: 25px;
+
+    h1 {
+      font-size: 25px;
+    }
+
+    h3 {
+      margin: 7px 0;
+
+      &::before {
+        content: "⭐";
+      }
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 45px;
+    }
+  }
+}
